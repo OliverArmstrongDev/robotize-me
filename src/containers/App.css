@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto+Serif:&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto+Serif');
 
 body{
   font-family: 'Acme', sans-serif;
@@ -30,6 +30,7 @@ input{
   box-sizing: border-box;
   border: 1px solid #ccc;
   border-radius: 4px;
+  font-size: 17px;
 }
 
 footer{
