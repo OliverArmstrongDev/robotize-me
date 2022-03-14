@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/robotize-me/static/css/main.e16ce543.css",
+    "main.css": "/robotize-me/static/css/main.1339df0d.css",
     "main.js": "/robotize-me/static/js/main.3d796e9b.js",
     "index.html": "/robotize-me/index.html",
-    "main.e16ce543.css.map": "/robotize-me/static/css/main.e16ce543.css.map",
+    "main.1339df0d.css.map": "/robotize-me/static/css/main.1339df0d.css.map",
     "main.3d796e9b.js.map": "/robotize-me/static/js/main.3d796e9b.js.map"
   },
   "entrypoints": [
-    "static/css/main.e16ce543.css",
+    "static/css/main.1339df0d.css",
     "static/js/main.3d796e9b.js"
   ]
 }
