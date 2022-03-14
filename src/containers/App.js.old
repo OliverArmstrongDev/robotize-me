@@ -1,0 +1,47 @@
+import React, { Component } from "react";
+import GetBot from "../components/GetBot";
+
+import './App.css';
+
+class App extends Component {
+constructor(props){
+  super(props);
+  this.state={
+    humanName: ""
+  };
+}
+
+
+
+UpdateInput = (e) => {
+  this.setState({humanName: e.target.value})
+  console.log(this.state.humanName);
+};
+
+
+handleClick = (e) => {
+  console.log(this.state.humanName);
+};
+
+
+  render(){
+    return (
+        <div className="container">
+          <div className="getBotForm">
+            <h1>Robotize your name!</h1>
+           <GetBot nameToChange={this.state.humanName} onChangeCall={this.UpdateInput}/>
+           
+            </div>
+            
+        </div>
+      );
+    
+  } 
+}
+
+export default App;
+
+
+
+
+

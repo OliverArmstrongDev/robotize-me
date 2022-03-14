@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto+Serif:&display=swap');
+
+body{
+  font-family: 'Acme', sans-serif;
+  font-family: 'Roboto Serif', serif;
+  font-size: 2em;
+  background: linear-gradient(to right, 
+  rgb(158, 203, 255),
+   rgb(85, 90, 197)) ;;
+   color: #fff;
+}
+.container{
+  /* height: 90vh; */
+  position: relative;
+  display: flex; 
+  /* gap: 2em;  */
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 3em;
+  
+}
+.getBotForm{
+  text-align: center;
+  padding-bottom: 2em;
+}
+input{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 2rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 600;
+  /* outline: solid black; */
+  
+}
+img{
+  border: 2px solid white;
+  box-shadow: 0 0 50px #ccc;
+}
+
+ul{
+  list-style: none;
+  text-align: center;
+  line-height: 1.3em;
+}
+a{
+  color: #fff;
+}
